@@ -9,7 +9,7 @@
 
 ```bash
 # 1. Clonar repositorio
-git clone https://github.com/tu-usuario/library-manager.git
+git clone https://github.com/E33-a/LibraryTest.git
 cd library-manager
 
 # 2. Restaurar paquetes NuGet

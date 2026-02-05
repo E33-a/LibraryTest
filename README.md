@@ -10,7 +10,7 @@
 ```bash
 # 1. Clonar repositorio
 git clone https://github.com/E33-a/LibraryTest.git
-cd library-manager
+cd LibraryTest
 
 # 2. Restaurar paquetes NuGet
 dotnet restore src/LibraryManager.sln

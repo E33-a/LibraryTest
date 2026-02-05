@@ -1,0 +1,20 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.cache
+
+# NuGet
+packages/
+*.nupkg
+
+# SQLite (opcional - si quieres BD limpia cada vez)
+*.db
+*.db-journal
+
+# Ranorex (si subes las pruebas)
+*.rxuser
+TestResults/
+Reports/

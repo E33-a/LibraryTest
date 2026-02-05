@@ -1,0 +1,16 @@
+namespace LibraryManager.Core.Models
+{
+    public class User
+    {
+        public int Id { get; set; }
+        public string Username { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
+        public string FullName { get; set; } = string.Empty;
+        public string Role { get; set; } = "User"; // Admin, User
+        public bool IsActive { get; set; } = true;
+        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        
+        // Navegación
+        public ICollection<Loan> Loans { get; set; } = new List<Loan>();
+    }
+}
